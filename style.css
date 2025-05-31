@@ -1,0 +1,145 @@
+.logo{
+    background-color: black;
+
+ 
+}
+
+h1{
+    background-color: rgba(228, 7, 110, 0.451);
+    text-align: center;
+}
+
+div{
+    color: rgb(2, 2, 254);
+}
+
+
+h3{
+    color: rgb(170, 46, 215);
+}
+
+p{
+    color: black;
+    text-align: left;
+    background-color: rgba(4, 167, 226, 0.688);
+}
+
+.letra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.letra estilo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+
+table{
+    text-align: center;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  background-image: linear-gradient(135deg, hsla(188, 100%, 59%, 0.708), hsla(16, 99%, 57%, 0.691), hsla(131, 100%, 51%, 0.604), hsla(323, 100%, 50%, 0.696), hsla(290, 97%, 24%, 0.563));
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+  opacity: 0.9;
+  color: rgb(53, 0, 54);
+}
+
+img{
+    border: solid 3px black;
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+img {
+    animation: flotar 3s ease-in-out infinite;
+}
+
+footer{
+    margin-top: auto;
+   background-color: black;
+    opacity: 0.8;
+    color: beige;
+    font-size:xx-large; 
+    width: 100%;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size:xx-large; 
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    border: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px 0px 50px 0px;
+    background-image: url(img/pueblos.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+  background-color: rgb(19, 19, 20);
+filter: invert(1);
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item:hover{
+  opacity: 1;
+}
+
+.copyright{
+  color: rgb(238, 231, 231);
+  opacity: 0.3;
+  text-align: center;
+}
+
